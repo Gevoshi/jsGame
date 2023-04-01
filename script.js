@@ -10,7 +10,6 @@ const colors = ['green', 'red', 'blue', 'orange', 'yellow', 'purple', 'lime'];
 let score = 0;
 
 // EVENT LISTENER
-
 $gameStart.addEventListener('click', startGameFunc);
 $gameTimeChanger.addEventListener('change', changeGameTimeFunc)
 $game.addEventListener('click', clickHandlerFunc)
